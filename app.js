@@ -265,6 +265,7 @@ function importWords(event) {
 }
 function closeBackup() { document.getElementById('backup-modal').classList.remove('open'); }
 function init() {
+  document.querySelectorAll('.modal-backdrop.open').forEach(modal => modal.classList.remove('open'));
   renderWords(); updatePracticeScreen();
   document.getElementById('detail-word').dataset.id = '';
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js').catch(()=>{});
