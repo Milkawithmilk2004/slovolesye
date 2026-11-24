@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Словолесье — картотека английских слов",
+  "short_name": "Словолесье",
+  "description": "Личная пиксельная картотека английских слов",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a18",
+  "theme_color": "#101a18",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
